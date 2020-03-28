@@ -1,38 +1,164 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+
+.body{
+  font-family: 'Dosis', sans-serif;
+}
+
+.justify-content-end{
+  margin: 20px 60px;
+}
+
+.footer{
+  height: 90px;
+  margin-top: 0;
+  margin-bottom: auto;
+  background-color: blueviolet;
+  align-content: center;
+  width: 100%;
+
+  
+}
+
+
+.name-header{
+text-align: center;
+margin: 60px auto 30px;
+font-family: 'Sacramento', cursive;
+font-size: 6rem
+}
+
+.title{
   text-align: center;
+  margin: auto auto 4em auto;
+  font-family: 'Dosis', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  .con1-pic{
+display: block;
+margin: 0 auto 0 auto;
+width: 50em
+
+/* small devices */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.container_2{
+  height: 500px;
+  background-color: navajowhite;
+  text-align: center;
+
+  @media (max-width: 850px){
+    height: 50%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.div-header{
+  margin: 45px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.hi-image{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.con2-para{
+  text-align: center;
+  font-size: 18px;
+}
+
+.con2-hi{
+margin: 30px auto 30px auto;
+}
+
+.container_3{
+  height: 850px;
+  background-color: azure;
+  text-align: center;
+  padding: 20px
+
+}
+
+.can-pic{
+  width: 33%;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+
+.build-h2{
+  margin: 3%;
+  
+}
+
+.build-para{
+  font-size: 18px;
+  margin: 10px 20px 20px;
+}
+
+.can-do-pic{
+  margin: 100px;
+  height: 30px;
+}
+
+.dev-pic{
+  width: 300px;
+  height: 250px;
+  float: right;
+  margin: 0 100px auto;
+  position: relative;
+}
+.dev-para{
+  margin-top: 19em;
+  font-size: 18px;
+}
+
+.header-dev{
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.dev-discription{
+  text-align: justify;
+  margin: 0 0 0 12em
+}
+/* .wrapper{
+  text-align: center;
+} */
+
+.container_4{
+  margin: 0 0 0 0;
+  height: 400px;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px 0 10px;
+
+}
+
+.con4-header{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.con4-para{
+text-align: center;
+font-size: 18px;
+}
+
+.con4-title{
+  margin: auto auto 25px auto;
+}
+
+.btn-messageMe{
+  width: 350px;
+  margin-top: 50px;
 }

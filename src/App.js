@@ -1,24 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
+import About from './Components/About';
 import './App.css';
-
+import Home from './Components/Home';
+import * as ReactBootStrp from 'react-bootstrap'
+import Footer from './Components/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      {/* <ReactBootStrp.Navbar bg="dark">
+        <ReactBootStrp.Navbar.Brand href="#home">
+          <img
+            src="/logo.svg"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </ReactBootStrp.Navbar.Brand>
+        <ReactBootStrp.Nav.Item>
+          <ReactBootStrp.Nav.Link eventKey="link-2">Link</ReactBootStrp.Nav.Link>
+        </ReactBootStrp.Nav.Item>
+
+        
+      </ReactBootStrp.Navbar> */}
+
+      <ReactBootStrp.Nav className="justify-content-end" activeKey="/home">
+        <ReactBootStrp.Nav.Item>
+          <ReactBootStrp.Nav.Link href="/home">About</ReactBootStrp.Nav.Link>
+        </ReactBootStrp.Nav.Item>
+        <ReactBootStrp.Nav.Item>
+          <ReactBootStrp.Nav.Link> Work</ReactBootStrp.Nav.Link>
+        </ReactBootStrp.Nav.Item>
+        <ReactBootStrp.Nav.Item>
+          <ReactBootStrp.Nav.Link eventKey="link-2">Notes</ReactBootStrp.Nav.Link>
+        </ReactBootStrp.Nav.Item>
+        <ReactBootStrp.Nav.Item>
+      
+        </ReactBootStrp.Nav.Item>
+      </ReactBootStrp.Nav>
+
+      
+      <Home/>
+      <Footer/>
     </div>
   );
 }
