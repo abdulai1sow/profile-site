@@ -1,164 +1,186 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
 
-
-.body{
-  font-family: 'Dosis', sans-serif;
+.body {
+  font-family: "Dosis", sans-serif;
 }
-
-.justify-content-end{
+d .justify-content-end {
   margin: 20px 60px;
 }
 
-.footer{
+.footer {
   height: 90px;
   margin-top: 0;
   margin-bottom: auto;
   background-color: blueviolet;
   align-content: center;
   width: 100%;
-
-  
 }
 
-
-.name-header{
-text-align: center;
-margin: 60px auto 30px;
-font-family: 'Sacramento', cursive;
-font-size: 6rem
+.name-header {
+  text-align: center;
+  margin: 60px auto 30px;
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
 }
 
-.title{
+.title {
   text-align: center;
   margin: auto auto 4em auto;
-  font-family: 'Dosis', sans-serif;
-
+  font-family: "Dosis", sans-serif;
 }
 
-  .con1-pic{
-display: block;
-margin: 0 auto 0 auto;
-width: 50em
-
-/* small devices */
-
+.con1-pic {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 50em;
 }
-
-
-
-.container_2{
-  height: 500px;
-  background-color: navajowhite;
-  text-align: center;
-
-  @media (max-width: 850px){
-    height: 50%;
+@media (max-width: 768px) {
+  .con1-pic {
+    width: 90%;
   }
 }
 
-.div-header{
-  margin: 45px;
-
-}
-
-.hi-image{
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  margin-top: 50px;
-
-}
-
-.con2-para{
+.container_2 {
+  height: 500px;
+  background-color: navajowhite;
   text-align: center;
-  font-size: 18px;
 }
 
-.con2-hi{
-margin: 30px auto 30px auto;
+.div-header {
+  margin: 45px;
 }
 
-.container_3{
+.hi-image {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+
+.con2-para {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.con2-hi {
+  margin: 30px auto 30px auto;
+}
+
+.container_3 {
   height: 850px;
   background-color: azure;
   text-align: center;
-  padding: 20px
-
+  padding: 20px;
+  position: relative;
 }
 
-.can-pic{
+.can-pic {
   width: 33%;
-  height: 300px;
+  height: 650%;
   float: left;
   position: relative;
 }
 
-.build-h2{
+.build-h2 {
   margin: 3%;
-  
 }
 
-.build-para{
-  font-size: 18px;
+@media (max-width: 641px){
+  .build-h2{
+    margin: auto;
+  }
+}
+
+.build-para {
+  font-size: 1.3em;
   margin: 10px 20px 20px;
 }
 
-.can-do-pic{
+@media (max-width:)
+
+.can-do-pic {
   margin: 100px;
   height: 30px;
 }
 
-.dev-pic{
-  width: 300px;
-  height: 250px;
+@media (max-width: 641px){
+  .can-do-pic{
+    margin: 0;  
+  }
+}
+.dev-pic {
+  width: 30%;
   float: right;
-  margin: 0 100px auto;
+  margin:0 40px 50px 30px;
   position: relative;
 }
-.dev-para{
-  margin-top: 19em;
-  font-size: 18px;
+
+@media (max-width: 768px){
+    .dev-pic{
+      width: 40%;
+      height: 25%;
+      margin-top: 3.5em;
+    }
 }
 
-.header-dev{
-  margin-bottom: 50px;
+.dev-para {
+  margin-top: 17em;
+}
+
+@media (max-width: 768px){
+  .dev-para{
+    margin-top: 11em;
+    font-size: 22px;
+  }
+}
+
+.header-dev {
+  margin-bottom: 5%;
   text-align: center;
   position: relative;
 }
 
-.dev-discription{
-  text-align: justify;
-  margin: 0 0 0 12em
-}
-/* .wrapper{
+.dev-discription {
   text-align: center;
-} */
+  margin: 0 2em 0 0;
+  font-size: 1.3em
+}
 
-.container_4{
+@media (max-width: 768px){
+    .dev-discription{
+      margin: auto 2.4em
+    }
+}
+
+.container_4 {
   margin: 0 0 0 0;
-  height: 400px;
+  height: 40%;
   background-color: aquamarine;
   text-align: center;
   padding: 20px 0 10px;
-
+  /* @media (max-width: 768px){
+    .container_4{
+      width: 100%;
+    }
+  } */
 }
 
-.con4-header{
+.con4-header {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.con4-para{
-text-align: center;
-font-size: 18px;
+.con4-para {
+  text-align: center;
+  font-size: 18px;
 }
 
-.con4-title{
+.con4-title {
   margin: auto auto 25px auto;
 }
 
-.btn-messageMe{
+.btn-messageMe {
   width: 350px;
   margin-top: 50px;
 }
