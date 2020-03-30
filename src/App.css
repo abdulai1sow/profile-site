@@ -24,10 +24,22 @@ d .justify-content-end {
   font-size: 6rem;
 }
 
+@media (max-width: 447px){
+  .name-header{
+    font-size: 4rem;
+  }
+}
+
 .title {
   text-align: center;
   margin: auto auto 4em auto;
   font-family: "Dosis", sans-serif;
+}
+
+@media (max-width: 447px){
+  .title{
+    font-size: 1.7rem
+  }
 }
 
 .con1-pic {
@@ -35,7 +47,7 @@ d .justify-content-end {
   margin: 0 auto 0 auto;
   width: 50em;
 }
-@media (max-width: 768px) {
+@media (max-width: 806px) {
   .con1-pic {
     width: 90%;
   }
@@ -46,6 +58,7 @@ d .justify-content-end {
   background-color: navajowhite;
   text-align: center;
 }
+
 
 .div-header {
   margin: 45px;
@@ -97,6 +110,12 @@ d .justify-content-end {
   margin: 10px 20px 20px;
 }
 
+@media (max-width: 447px){
+  .build-para{
+    font-size: .9em;
+  }
+}
+
 @media (max-width:)
 
 .can-do-pic {
@@ -121,6 +140,7 @@ d .justify-content-end {
       width: 40%;
       height: 25%;
       margin-top: 3.5em;
+      display: inline-block;
     }
 }
 
@@ -130,8 +150,7 @@ d .justify-content-end {
 
 @media (max-width: 768px){
   .dev-para{
-    margin-top: 11em;
-    font-size: 22px;
+    margin-top: 4em;
   }
 }
 
@@ -139,6 +158,12 @@ d .justify-content-end {
   margin-bottom: 5%;
   text-align: center;
   position: relative;
+}
+
+@media (max-width: 447px){
+  .header-dev{
+    display: inline;
+  }
 }
 
 .dev-discription {
