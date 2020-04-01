@@ -8,11 +8,14 @@ export default class Home extends Component {
     return (
       <div className="body">
         <div>
-          <h1 className="name-header"> I'm Abdulai</h1>
-          <h2 className="title">I' m a Software Engineer</h2>
-          <div className="container_1">
-            <img className="con1-pic" src="./Logo1.png" alt="header image" />
+          <div className='header-container'>
+            <h1 className="name-header"> I'm Abdulai</h1>
+            <h2 className="title">I' m a Software Engineer</h2>
+            <div className="container_1">
+              <img className="con1-pic" src="./Logo1.png" alt="header image" />
+            </div>
           </div>
+
           <div className="container_2">
             <img className="hi-image" src="./images-hi.png" alt="smile face" />
             <h2 className="con2-hi">Hi</h2>
@@ -22,36 +25,36 @@ export default class Home extends Component {
               applications.
             </p>
           </div>
+          <line/>
           <div className="container_3">
             {/* can do for first header */}
 
             <h1 className="div-header">What I can do.</h1>
-            <div className="">
-              {/* build what you want para */}
-              <div className="can-do-pic">
-                <img className="can-pic" src="./can-do-2.png" alt="" />
+            {/* <div className=""> */}
+            {/* build what you want para */}
+            <div className="can-do-pic">
+              <img className="can-pic" src="./can-do-2.png" alt="" />
 
-                <h2 className="build-h2">Build what you want.</h2>
-                <p className="build-para">
-                  I like to keep it simple. My goals are to focus on
-                  <br />
-                  functionality, content and making <br />
-                  it easy for end users.
-                </p>
-              </div>
-              {/* dev para section */}
-              <div className="dev-para">
-                <img className="dev-pic" src="./2-pic-can.png" alt="" />
-                <h2 className="header-dev">Develop what you need.</h2>
-                <p className="dev-discription">
-                  I'm a engineer, so i know how to create your applications{" "}
-                  <br />
-                  to run across devices using the latest <br /> technologies
-                  available.
-                </p>
-              </div>
-              <p></p>
+              <h2 className="build-h2">Build what you want.</h2>
+              <p className="build-para">
+                I like to keep it simple. My goals are to focus on
+                <br />
+                functionality, content and making <br />
+                it easy for end users.
+              </p>
             </div>
+            {/* dev para section */}
+            <div className="dev-para">
+              <img className="dev-pic" src="./2-pic-can.png" alt="" />
+              <h2 className="header-dev">Develop what you need.</h2>
+              <p className="dev-discription">
+                I'm a engineer, so i know how to create your applications <br />
+                to run across devices using the latest <br /> technologies
+                available.
+              </p>
+            </div>
+
+            {/* </div> */}
           </div>
           <div className="container_4">
             <h1 className="con4-header">I can Help.</h1>

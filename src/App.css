@@ -3,25 +3,36 @@
 
 .body {
   font-family: "Dosis", sans-serif;
+ background-color: #ccf0e1;
 }
-d .justify-content-end {
-  margin: 20px 60px;
+ .justify-content-end {
+  /* margin: 20px 60px; */
+  padding: 2em ;
+  border-bottom: .3em ;
+   background-color: #ccf0e1;
+
 }
 
 .footer {
-  height: 90px;
-  margin-top: 0;
-  margin-bottom: auto;
-  background-color: blueviolet;
-  align-content: center;
+  height: 19%;
+  background-color: #ccf0e1;
   width: 100%;
+  display: inline-block;
 }
 
+.social-links{
+  margin: 2% auto 0 40%;
+  font-size: 1.2em;
+}
+
+
 .name-header {
-  text-align: center;
-  margin: 60px auto 30px;
+  text-align: center;  
+  margin: 1% 0 auto 35%; 
   font-family: "Sacramento", cursive;
   font-size: 6rem;
+  display: inline-block;
+  color: #18b0b0;
 }
 
 @media (max-width: 447px){
@@ -32,8 +43,11 @@ d .justify-content-end {
 
 .title {
   text-align: center;
-  margin: auto auto 4em auto;
   font-family: "Dosis", sans-serif;
+  display: inline-block;
+  margin: 2% 5% 2% 42%;
+  color: #18b0b0;
+
 }
 
 @media (max-width: 447px){
@@ -55,13 +69,17 @@ d .justify-content-end {
 
 .container_2 {
   height: 500px;
-  background-color: navajowhite;
+  background-color: #ffffff;
   text-align: center;
 }
 
 
 .div-header {
-  margin: 45px;
+  margin: 1em auto 0 auto;
+  display: inline-block;
+  font-size: 4em;
+    color: #18b0b0;
+
 }
 
 .hi-image {
@@ -78,25 +96,34 @@ d .justify-content-end {
 
 .con2-hi {
   margin: 30px auto 30px auto;
+      color: #18b0b0;
+
 }
 
 .container_3 {
-  height: 850px;
-  background-color: azure;
+  height: 75em;
+  background-color: #ffffff;
   text-align: center;
   padding: 20px;
   position: relative;
 }
 
 .can-pic {
+  margin-top: 8em;
   width: 33%;
-  height: 650%;
+  height: 55%;
   float: left;
   position: relative;
 }
 
 .build-h2 {
-  margin: 3%;
+  padding: 1.9em 0 2em 0;
+  display: inline-block;
+  position: absolute;
+  font-display: center;
+  font-size: 3em;
+      color: #18b0b0;
+
 }
 
 @media (max-width: 641px){
@@ -106,8 +133,9 @@ d .justify-content-end {
 }
 
 .build-para {
-  font-size: 1.3em;
-  margin: 10px 20px 20px;
+  font-size: 1.2em;
+  display: inline-block;
+  padding-top: 12em;
 }
 
 @media (max-width: 447px){
@@ -116,72 +144,80 @@ d .justify-content-end {
   }
 }
 
-@media (max-width:)
-
 .can-do-pic {
-  margin: 100px;
-  height: 30px;
-}
+  height: 40em;
+  margin-bottom: -4em;
+}  
 
 @media (max-width: 641px){
   .can-do-pic{
     margin: 0;  
   }
 }
+
+.dev-para{
+  height: 50em;
+}
+
 .dev-pic {
   width: 30%;
   float: right;
-  margin:0 40px 50px 30px;
+  margin: 6em 40px 50px 30px;
   position: relative;
 }
 
 @media (max-width: 768px){
     .dev-pic{
       width: 40%;
-      height: 25%;
-      margin-top: 3.5em;
-      display: inline-block;
+      height: 55%;
+     
+      margin: 3em .2em auto 0;
     }
 }
 
-.dev-para {
-  margin-top: 17em;
-}
-
-@media (max-width: 768px){
+@media (max-width: 447px){
   .dev-para{
     margin-top: 4em;
+    height:25%;
+
   }
 }
 
 .header-dev {
-  margin-bottom: 5%;
+  font-size: 3em;
+  display: inline-block;
+  margin: 0 ;
   text-align: center;
-  position: relative;
+  position: absolute;
+      color: #18b0b0;
+
 }
 
 @media (max-width: 447px){
   .header-dev{
-    display: inline;
+    position: absolute;
+
   }
 }
 
 .dev-discription {
   text-align: center;
-  margin: 0 2em 0 0;
-  font-size: 1.3em
+  margin: 8em 2em 0 0;
+  font-size: 1.2em;
+  display: inline-block;
 }
 
 @media (max-width: 768px){
     .dev-discription{
-      margin: auto 2.4em
+     margin-top: 0;
+     font-size: 1.1em;
     }
 }
 
 .container_4 {
   margin: 0 0 0 0;
   height: 40%;
-  background-color: aquamarine;
+  background-color: #ffffff;
   text-align: center;
   padding: 20px 0 10px;
   /* @media (max-width: 768px){
@@ -192,20 +228,25 @@ d .justify-content-end {
 }
 
 .con4-header {
-  margin-top: 40px;
-  margin-bottom: 40px;
+display: inline-block;
+    color: #18b0b0;
+
 }
 
 .con4-para {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.2em;
 }
 
 .con4-title {
-  margin: auto auto 25px auto;
+  margin: 1em 0 1em 0;
+  font-size: 2em; 
+      color: #18b0b0;
+
 }
 
 .btn-messageMe {
-  width: 350px;
+  width: 30em;
   margin-top: 50px;
+  margin-bottom: 2em;
 }
