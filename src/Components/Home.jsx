@@ -1,23 +1,24 @@
 import React, { Component } from "react";
-import App from "../App.css";
-
+// import App from "../App.css";
 import * as ReactBootStrp from "react-bootstrap";
+
+
 
 export default class Home extends Component {
   render() {
     return (
       <div className="body">
         <div>
-          <div className='header-container'>
+          <div className="header-container">
             <h1 className="name-header"> I'm Abdulai</h1>
-            <h2 className="title">I' m a Software Engineer</h2>
+            <h2 className="title"> a Software Engineer</h2>
             <div className="container_1">
               <img className="con1-pic" src="./Logo1.png" alt="header image" />
             </div>
           </div>
 
           <div className="container_2">
-            <img className="hi-image" src="./images-hi.png" alt="smile face" />
+            <img className="hi-image" src="./me.jpg" alt="smile face" />
             <h2 className="con2-hi">Hi</h2>
             <p className="con2-para">
               I'm a Software Engineer from Atlanta, Georgia. <br /> I have
@@ -25,7 +26,7 @@ export default class Home extends Component {
               applications.
             </p>
           </div>
-          <line/>
+          <line />
           <div className="container_3">
             {/* can do for first header */}
 
@@ -63,14 +64,17 @@ export default class Home extends Component {
               If you are looking for my skills and knowledge, <br />
               or just want to say hey, then get in touch.
             </div>
-            <ReactBootStrp.Button
-              className="btn-messageMe"
-              variant="primary"
-              size="lg"
-              active
-            >
-              MESSAGE ME
-            </ReactBootStrp.Button>{" "}
+            {/* <a href="mailto:abdulai-as@hotmail.com">
+              <ReactBootStrp.Button
+                className="btn-wp1"
+                variant="primary"
+                size="lg"
+                active
+              >
+                MESSAGE ME
+              </ReactBootStrp.Button>{" "}
+            </a> */}
+           
           </div>
         </div>
       </div>

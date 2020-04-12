@@ -14,7 +14,7 @@ export default class Navbar extends Component {
                 activeKey="/home"
               >
                 <ReactBootStrp.Nav.Item>
-                  <ReactBootStrp.Nav.Link href="/home">
+                  <ReactBootStrp.Nav.Link href="/">
                     Home
                   </ReactBootStrp.Nav.Link>
                 </ReactBootStrp.Nav.Item>
@@ -25,11 +25,11 @@ export default class Navbar extends Component {
                   </ReactBootStrp.Nav.Link>
                 </ReactBootStrp.Nav.Item>
 
-                <ReactBootStrp.Nav.Item>
+                {/* <ReactBootStrp.Nav.Item>
                   <ReactBootStrp.Nav.Link eventKey="link-2">
                     Notes
                   </ReactBootStrp.Nav.Link>
-                </ReactBootStrp.Nav.Item>
+                </ReactBootStrp.Nav.Item> */}
 
                 <ReactBootStrp.Nav.Item></ReactBootStrp.Nav.Item>
               </ReactBootStrp.Nav>
