@@ -2,7 +2,7 @@ import React from 'react';
 import About from './Components/About';
 import Work from './Components/Work'
 import './App.css';
-import Home from './Components/Home';
+import Index from './Components/About';
 import * as ReactBootStrp from 'react-bootstrap'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from './Components/Footer';
@@ -12,14 +12,15 @@ function App() {
     
     <div>
       <Navbar/>
-      {/* <Home/> */}
+      {/* <About/> */}
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />;
-                <Route exact path="/work" component={Work} />;
+          <Route exact path="/" component={About} />;
+          <Route exact path="/work" component={Work} />;
             </Switch>
       </Router>
       <Footer/>
+      
     </div>
 
 
