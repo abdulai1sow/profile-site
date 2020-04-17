@@ -2,7 +2,6 @@ import React from 'react';
 import About from './Components/About';
 import Work from './Components/Work'
 import './App.css';
-import Index from './Components/About';
 import * as ReactBootStrp from 'react-bootstrap'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from './Components/Footer';
