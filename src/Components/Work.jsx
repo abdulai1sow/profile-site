@@ -30,7 +30,7 @@ export default class Work extends Component {
               <p className="wc3-p1">Html/Css/JavaScript</p>
               <p className="wcp-discription">
                 This is one of my favorite game to play, and as school project i{" "}
-                <br /> choose to make Connect four. If you enjoy playing <br />
+                choose to make Connect four. If you enjoy playing
                 it here it is. Enjoy playing.
               </p>
               <div className="pw-button">

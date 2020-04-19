@@ -46,7 +46,7 @@
   text-align: center;
 }
 .div-header {
-  margin: 1em auto 0 auto;
+  margin: 0 3em 2em auto;
   display: inline-block;
   font-size: 4em;
   color: #18b0b0;
@@ -76,27 +76,26 @@
 .can-pic {
   margin-top: 8em;
   width: 33%;
-  height: 55%;
+  height: 40%;
   float: left;
   position: relative;
+  display: block;
 }
 .build-h2 {
-  padding: 1.9em 0 2em 0;
-  display: inline-block;
-  position: absolute;
-  font-display: center;
+  display: block;
   font-size: 3em;
   color: #18b0b0;
 }
 .build-para {
   font-size: 1.2em;
-  display: inline-block;
-  padding-top: 12em;
-  margin: auto 14em;
+  display: block;
+  margin: 2em 7em 4em 23em;
+  text-align: center;
 }
 .can-do-pic {
   height: 40em;
   margin-bottom: -4em;
+  display: inline;
 }  
 .dev-para{
   height: 40em;
@@ -104,22 +103,20 @@
 .dev-pic {
   width: 30%;
   float: right;
-  margin: 7vw 5vw 5vw 3vw;
+  margin: 20em 5vw 5vw 3vw;
   position: relative;
 }
 .header-dev {
   font-size: 3em;
   display: inline-block;
-  margin: 0 ;
-  text-align: center;
-  position: absolute;
+  margin: 3em auto auto auto;
   color: #18b0b0;
 }
 .dev-discription {
   text-align: center;
-  margin: 8em 2em 0 0;
+  margin: 3em 0 0 3.5em;
   font-size: 1.2em;
-  display: inline-block;
+  display: block;
 }
 
 .container_4 {
@@ -137,6 +134,7 @@ display: inline-block;
 .con4-para {
   text-align: center;
   font-size: 1.2em;
+  margin: auto 17em;
 }
 
 .con4-title {
@@ -222,6 +220,9 @@ display: inline-block;
   text-align: center;
   font-family: 'Dosis', sans-serif;
   font-size: 1.2em;
+  margin-left: 30%;
+  margin-right: 30%;
+
 }
 .pw-button{
   display: block;
@@ -231,14 +232,44 @@ display: inline-block;
 /* **************************************************************
                     768 view
 ******************************************************************/
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
+.con1-pic{
+  width: 90%;
+}
 .hi-image{
   width: 20%;
   }
   .con4-header{
     margin: auto auto auto 5%
   }
-
+  .con4-para{
+    margin: 5% 25%;
+  }
+  .con2-para{
+    margin: auto 8em;
+  }
+  .can-pic{
+    height: 30%;
+    width: 45%;
+  }
+  .build-para{
+    margin: 15% 2% auto 55%;
+  }
+  .dev-pic{
+    /* bottom: 0; */
+    position: absolute;
+    float: right;
+    margin: 40% 0 0 40%;
+  }
+  .dev-discription{
+    margin: 10% 50% auto 0;
+  }
+  .div-header{
+    margin-right: 10%; 
+  }
+  .wcp-discription{
+    margin: auto 20% 3% 20%;
+  }
 }
 
 
@@ -246,7 +277,7 @@ display: inline-block;
                     425 view
 ******************************************************************/
 
-@media (max-width: 425px){
+@media screen and (max-width: 425px){
 
 .social-links{
     margin-left: 5.5em;
@@ -270,10 +301,10 @@ display: inline-block;
  }
  .can-pic{
     margin-top: 60%;
-    margin-left: 5%;
+    margin-left: 15%;
     position: absolute;
     width: 60%;
-    height: 30%;
+    height: 20%;
   }
   .con2-para{
     margin: auto 1.2em;
@@ -281,16 +312,14 @@ display: inline-block;
   .build-h2{
     font-size: 2.5rem;
     display: inline;
+    margin-top: 10%;
   }
   .hi-image{
     width: 23%;
   }
-  .build-h2{
-    padding-top: 80px; 
-  }
   .build-para{
     font-size: 1.2em;
-    padding-top: 160px;
+    margin: 20% auto;
   }
   .can-do-pic{
     margin: 2.5%;  
@@ -298,21 +327,17 @@ display: inline-block;
   .dev-pic{
       position: absolute;
       display: block;
-      width: 40%;
+      width: 50%;
       height: 15%;
       bottom: 0;
-      align-content: center;
-      margin: auto auto 28vw 28vw;
+      /* align-content: center; */
+      margin: auto auto 10vw 20vw;
     }
-    .header-dev{
-    font-size: 2.3em; 
-    text-align: center;
-    margin: auto 7%;   
-  }
+   
   .header-dev{
     position: relative;
-    float: left;
-    margin-top: 1em;
+    margin-top: 12em;
+    font-size: 2.3em; 
   }
   .dev-discription{
      font-size: 1.1em;
@@ -369,12 +394,15 @@ display: inline-block;
                     375 view
 ******************************************************************/
 
-@media (max-width: 375px){
+@media screen and (max-width: 375px){
   .build-para{
-
+    margin: auto 1em 3em 1em;
+    padding-top: 1em;
   }
   .header-dev{
-    margin: auto;
+    margin: 10em 0 0 .2em;
+    font-size: 2.2em;
+    /* padding: auto; */
   }
   .dev-discription{
     margin: 10vw 0;
@@ -389,13 +417,50 @@ display: inline-block;
   .con4-title{
     font-size: 1.8em;
   }
+  .div-header{
+    margin-bottom: .7em;
+  }
+  .can-pic{
+    margin: 10em auto auto 3em;
+    height: 12em;
+  }
+  .dev-pic{
+    margin-bottom: 9em;
+    width: 11em;
+    margin-left: 5em;
+  }
+  .w-project{
+    width: 85%;
+    height: 40%;
+    margin-right: 4%; 
+  }
+  .wcp-discription{
+    width: 85%;
+    margin: auto 5%;
+  }
+  .pw-button{
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+  .w-header{
+    /* width: 98%; */
+    margin-right: 1%;
+    margin-left: 1%;
+
+  }
+  .w-workToShow{
+    margin: auto 1%;
+  }
+  .pencil{
+    margin-left: 35%;
+  }
 }
 
 /* **************************************************************
                            320 view
 ******************************************************************/
 
-@media (max-width: 320px){
+@media screen and (max-width: 320px){
   .div-header{
     margin-top: 2em;
     font-size: 3.2em;
@@ -411,7 +476,7 @@ display: inline-block;
     font-size: 1.9em;
   }
   .dev-pic{
-    margin-left: 5em;
+    margin-left: 4em;
   }
   .con4-title{
     font-size: 1.6em;
@@ -422,5 +487,18 @@ display: inline-block;
   }
   .container_4{
     padding: auto 2em;
+  }
+  .flag2{
+    margin-top: -6%;
+  }
+  .work-title{
+    margin-right: 14%;
+  }
+  .w-workToShow{
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .pw-button{
+    margin: 10% 24%;
   }
 }
