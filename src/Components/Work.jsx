@@ -20,6 +20,44 @@ export default class Work extends Component {
               </p>
             </div>
 
+            {/* pig game ***********************/}
+
+                <div className="w-container-3-pig-game">
+                    <img
+                        className="w-project-pig-game"
+                        src="./pig-game.png"
+                        alt="project-one"
+                    />
+                    <h1 className="wc3-h1-pig-game"> Dice Roll</h1>
+                    <p className="wc3-p1-pig-game">Html/Css/JavaScript</p>
+                    <p className="wcp-discription-pig-game">
+                        Made this game for my nepfews, to take their mind off not being able to go outside and play.
+              </p>
+                    <div className="pw-button-pig-game">
+                        <a href="https://clever-poincare-1908e8.netlify.com/">
+                            <ReactBootStrp.Button
+                                className="btn-wp2-pig-game"
+                                variant="primary"
+                                size="lg"
+                                active
+                            >
+                                APP
+                  </ReactBootStrp.Button>{" "}
+                        </a>
+                        <a href="https://git.generalassemb.ly/sowabdulai/Project_One">
+                            <ReactBootStrp.Button
+                                className="btn-wp3-pig-game"
+                                variant="primary"
+                                size="lg"
+                                active
+                            >
+                                CODE
+                  </ReactBootStrp.Button>{" "}
+                        </a>
+                    </div>
+                </div>
+
+            {/*         connect four game ************************/}
             <div className="w-container-3">
               <img
                 className="w-project"

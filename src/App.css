@@ -144,7 +144,7 @@ display: inline-block;
 
 }
 
-/* *********************************************** */
+/* ***********************work************************ */
 
 .w-container-1{
   height: 15em;
@@ -169,7 +169,7 @@ display: inline-block;
   width: 10%;
   height: 10em;
   display: inline-block;
-  float: right;
+  /* float: right; */
   margin-top: 4.5em;
 }
 .w-container-2{
@@ -199,8 +199,20 @@ display: inline-block;
   background-color: #f5fcc1;
   margin-bottom: -25px;
 }
+.w-container-3-pig-game{
+    height: 60em;
+  background-color: #74d4c0;
+  margin-bottom: -25px;
+}
 .w-project{
   width: 65%;
+  height: 65%;
+  margin: 3% auto auto 18%;
+  border-radius: 6%;
+  display: inline-block;
+}
+.w-project-pig-game{
+    width: 65%;
   height: 65%;
   margin: 3% auto auto 18%;
   border-radius: 6%;
@@ -211,8 +223,18 @@ display: inline-block;
   text-align: center;
   margin: 1em auto auto auto;
 }
+.wc3-h1-pig-game{
+    font-family: 'Dosis', sans-serif;
+  text-align: center;
+  margin: 1em auto auto auto;
+}
 .wc3-p1{
   font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+}
+.wc3-p1-pig-game{
+    font-family: 'Dosis', sans-serif;
   text-align: center;
   font-size: 1.3em;
 }
@@ -222,12 +244,24 @@ display: inline-block;
   font-size: 1.2em;
   margin-left: 30%;
   margin-right: 30%;
-
+}
+.wcp-discription-pig-game{
+      text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 .pw-button{
   display: block;
   margin: auto auto auto 40%;
 }
+.pw-button-pig-game{
+     display: block;
+  margin: auto auto auto 40%;
+}
+
+
 
 /* **************************************************************
                     768 view
