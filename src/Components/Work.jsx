@@ -34,7 +34,7 @@ export default class Work extends Component {
                         Made this game for my nepfews, to take their mind off not being able to go outside and play.
               </p>
                     <div className="pw-button-pig-game">
-                        <a href="https://clever-poincare-1908e8.netlify.com/">
+                        <a href="https://tender-snyder-f8dd11.netlify.app/">
                             <ReactBootStrp.Button
                                 className="btn-wp2-pig-game"
                                 variant="primary"
@@ -44,7 +44,7 @@ export default class Work extends Component {
                                 APP
                   </ReactBootStrp.Button>{" "}
                         </a>
-                        <a href="https://git.generalassemb.ly/sowabdulai/Project_One">
+                        <a href="https://github.com/abdulai1sow/dice-roll">
                             <ReactBootStrp.Button
                                 className="btn-wp3-pig-game"
                                 variant="primary"

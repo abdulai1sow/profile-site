@@ -141,7 +141,9 @@ display: inline-block;
   margin: 1em 0 1em 0;
   font-size: 2em; 
       color: #18b0b0;
-
+}
+.flag2{
+    float: right;
 }
 
 /* ***********************work************************ */
@@ -304,6 +306,9 @@ display: inline-block;
   .wcp-discription{
     margin: auto 20% 3% 20%;
   }
+  .wcp-discription-pig-game{
+    margin: auto 20% 3% 20%;
+  }
 }
 
 
@@ -346,7 +351,6 @@ display: inline-block;
   .build-h2{
     font-size: 2.5rem;
     display: inline;
-    margin-top: 10%;
   }
   .hi-image{
     width: 23%;
@@ -364,7 +368,6 @@ display: inline-block;
       width: 50%;
       height: 15%;
       bottom: 0;
-      /* align-content: center; */
       margin: auto auto 10vw 20vw;
     }
    
@@ -375,9 +378,6 @@ display: inline-block;
   }
   .dev-discription{
      font-size: 1.1em;
-     /* margin: auto 11%; auto auto; */
-     /* width: 25em; */
-     /* padding: auto 1%;  */
     }
     .dev-discription{
     margin:  2em auto auto;
@@ -393,6 +393,7 @@ display: inline-block;
     width: 3em;
     height: 5.5em;
     margin-top: 9.5em;
+
   }
   .pencil{
     width: 8em;
@@ -402,7 +403,16 @@ display: inline-block;
   .w-container-3{
     height: 800px;
   }
+  .w-container-3-pig-game{
+          height: 800px;
+  }
   .w-project{
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 22.7em;
+    height: 27em;
+  }
+  .w-project-pig-game{
     margin-left: 2em;
     margin-right: 2em;
     width: 22.7em;
@@ -415,9 +425,19 @@ display: inline-block;
     padding-left: .1em;
     margin-left: .4em;
   }
+  .wcp-discription-pig-game{
+       font-size: 1.1em;
+    width: 23em;
+    height: 5em;
+    padding-left: .1em;
+    margin-left: .4em;
+  }
   .pw-button{
     margin-left: 8em;
   } 
+  .pw-button-pig-game{
+      margin-left: 8em;
+  }
   .con4-para{
     margin: auto 2em 2em 2em;
   }
@@ -468,11 +488,24 @@ display: inline-block;
     height: 40%;
     margin-right: 4%; 
   }
+  .w-project-pig-game{
+ width: 85%;
+    height: 40%;
+    margin-right: 4%; 
+  }
   .wcp-discription{
     width: 85%;
     margin: auto 5%;
   }
+  .wcp-discription-pig-game{
+       width: 85%;
+    margin: auto 5%;
+  }
   .pw-button{
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+  .pw-button-pig-game{
     margin-left: 30%;
     margin-top: 5%;
   }
