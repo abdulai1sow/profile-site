@@ -3,264 +3,296 @@
 
 
 .body {
-  font-family: "Dosis", sans-serif;
- background-color: #ccf0e1;
+    font-family: "Dosis", sans-serif;
+    background-color: #ccf0e1;
 }
- .justify-content-end {
+.justify-content-end {
   /* margin: 20px 60px;  */
-  padding: 2em ;
-  border-bottom: .3em ;
-   background-color: #ccf0e1;
+    padding: 2em ;
+    border-bottom: .3em ;
+    background-color: #ccf0e1;
 } 
 .footer {
-  height: 100px ;
-  background-color: #ccf0e1;
-  width: 100%;
+    height: 100px ;
+    background-color: #ccf0e1;
+    width: 100%;
 }
 .social-links{
-  margin: 2% auto 0 40%;
-  font-size: 1.2em;
+    margin: 2% auto 0 40%;
+    font-size: 1.2em;
 }
 .name-header {
-  text-align: center;  
-  margin: 1% 0 auto 30%; 
-  font-family: "Sacramento", cursive;
-  font-size: 9vw;
-  display: inline-block;
-  color: #18b0b0;
+    text-align: center;  
+    margin: 1% 0 auto 30%; 
+    font-family: "Sacramento", cursive;
+    font-size: 9vw;
+    display: inline-block;
+    color: #18b0b0;
 }
 .title {
-  text-align: center;
-  font-family: "Dosis", sans-serif;
-  display: block;
-  color: #18b0b0;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    display: block;
+    color: #18b0b0;
 }
 .con1-pic {
-  display: block;
-  margin: 0 auto 0 auto;
-  width: 50em;
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 50em;
 }
 .container_2 {
-  height: 500px;
-  background-color: #ffffff;
-  text-align: center;
+    height: 500px;
+    background-color: #ffffff;
+    text-align: center;
 }
 .div-header {
-  margin: 0 3em 2em auto;
-  display: inline-block;
-  font-size: 4em;
-  color: #18b0b0;
+    margin: 0 3em 2em auto;
+    display: inline-block;
+    font-size: 4em;
+    color: #18b0b0;
 }
 .hi-image {
-  border-radius: 50%;
-  width: 11%;
-  height: 25%;
-  margin-top: 5%;
+    border-radius: 50%;
+    width: 11%;
+    height: 25%;
+    margin-top: 5%;
 }
 .con2-para {
-  text-align: center;
-  font-size: 1.3em;
-  margin: auto 13em;
+    text-align: center;
+    font-size: 1.3em;
+    margin: auto 13em;
 }
 .con2-hi {
-  margin: 30px auto 30px auto;
-  color: #18b0b0;
+    margin: 30px auto 30px auto;
+    color: #18b0b0;
 }
 .container_3 {
-  height: 75em;
-  background-color: #ffffff;
-  text-align: center;
-  padding: 20px;
-  position: relative;
+    height: 75em;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
 }
 .can-pic {
-  margin-top: 8em;
-  width: 33%;
-  height: 40%;
-  float: left;
-  position: relative;
-  display: block;
+    margin-top: 8em;
+    width: 33%;
+    height: 40%;
+    float: left;
+    position: relative;
+    display: block;
 }
 .build-h2 {
-  display: block;
-  font-size: 3em;
-  color: #18b0b0;
+    display: block;
+    font-size: 3em;
+    color: #18b0b0;
 }
 .build-para {
-  font-size: 1.2em;
-  display: block;
-  margin: 2em 7em 4em 23em;
-  text-align: center;
+    font-size: 1.2em;
+    display: block;
+    margin: 2em 7em 4em 23em;
+    text-align: center;
 }
 .can-do-pic {
-  height: 40em;
-  margin-bottom: -4em;
-  display: inline;
+    display: inline;
 }  
 .dev-para{
-  height: 40em;
+    height: 40em;
 }
 .dev-pic {
-  width: 30%;
-  float: right;
-  margin: 20em 5vw 5vw 3vw;
-  position: relative;
+    width: 30%;
+    float: right;
+    margin: 20em 5vw 5vw 3vw;
+    position: relative;
 }
 .header-dev {
-  font-size: 3em;
-  display: inline-block;
-  margin: 3em auto auto auto;
-  color: #18b0b0;
+    font-size: 3em;
+    display: inline-block;
+    margin: 3em auto auto auto;
+    color: #18b0b0;
 }
 .dev-discription {
-  text-align: center;
-  margin: 3em 0 0 3.5em;
-  font-size: 1.2em;
-  display: block;
+    text-align: center;
+    margin: 3em 0 0 3.5em;
+    font-size: 1.2em;
+    display: block;
 }
 
 .container_4 {
-  margin-bottom: -14px;
-  height: 40%;
-  background-color: #ffffff;
-  text-align: center;
-  padding: 20px 0 10px;
+    margin-bottom: -14px;
+    height: 40%;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 0 10px;
 }
 
 .con4-header {
-display: inline-block;
+    display: inline-block;
     color: #18b0b0;
 }
 .con4-para {
-  text-align: center;
-  font-size: 1.2em;
-  margin: auto 17em;
+    text-align: center;
+    font-size: 1.2em;
+    margin: auto 17em;
 }
 
 .con4-title {
-  margin: 1em 0 1em 0;
-  font-size: 2em; 
-      color: #18b0b0;
+    margin: 1em 0 1em 0;
+    font-size: 2em; 
+    color: #18b0b0;
 }
 .flag2{
     float: right;
+}
+.copy{
+    text-align: center;
 }
 
 /* ***********************work************************ */
 
 .w-container-1{
-  height: 15em;
-  text-align: center;
-  background: #ccf0e1;
+    height: 15em;
+    text-align: center;
+    background: #ccf0e1;
 }
 .work-title{
-  display: inline-block;
-  margin-top: .5em;
-  font-family: 'Sacramento', cursive;
-  font-size: 6rem;
-  color: #18b0b0;
+    display: inline-block;
+    margin-top: .5em;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    color: #18b0b0;
 }
 .flag{
-  width: 10%;
-  height: 10em;
-  float: left;
-  position: bottom;
-  margin-top: 4.5em;
+    width: 10%;
+    height: 10em;
+    float: left;
+    position: bottom;
+    margin-top: 4.5em;
 }
 .flag2{
-  width: 10%;
-  height: 10em;
-  display: inline-block;
-  /* float: right; */
-  margin-top: 4.5em;
-}
-.w-container-2{
-  height: 32em;
+    width: 10%;
+    height: 10em;
+    display: inline-block;
+    margin-top: 4.5em;
 }
 .pencil{
-  width: 20%;
-  height: 15em;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 5% 0 0 40%;
+    width: 20%;
+    height: 15em;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5% 0 0 40%;
 }
 .w-header{
-  text-align: center;
-  margin: 1.4em auto .5em auto;
-  font-family: 'Dosis', sans-serif;
-  font-size: 3em;
-  color: #18b0b0;
+    text-align: center;
+    margin: 1.4em auto .5em auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3em;
+    color: #18b0b0;
 }
 .w-workToShow{
-  text-align: center;
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.6em;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.6em;
 }
 .w-container-3{
-  height: 60em;
-  background-color: #f5fcc1;
-  margin-bottom: -25px;
+    height: 60em;
+    background-color: #f5fcc1;
+    margin-bottom: -25px;
 }
 .w-container-3-pig-game{
     height: 60em;
-  background-color: #74d4c0;
-  margin-bottom: -25px;
+    background-color: #74d4c0;
+    margin-bottom: -25px;
+}
+.w-container-3-fav-toy{
+    height: 60em;
+    background-color: #e43ad0;
+    margin-bottom: -25px;
 }
 .w-project{
-  width: 65%;
-  height: 65%;
-  margin: 3% auto auto 18%;
-  border-radius: 6%;
-  display: inline-block;
+    width: 65%;
+    height: 50%;
+    margin: 3% auto auto 18%;
+    border-radius: 6%;
+    display: inline-block;
 }
 .w-project-pig-game{
     width: 65%;
-  height: 65%;
-  margin: 3% auto auto 18%;
-  border-radius: 6%;
-  display: inline-block;
+    height: 50%;
+    margin: 3% auto auto 18%;
+    border-radius: 6%;
+    display: inline-block;
+}
+.w-project-fav-toy{
+    width: 65%;
+    height: 50%;
+    margin: 3% auto auto 18%;
+    border-radius: 6%;
+    display: inline-block;
 }
 .wc3-h1{
-  font-family: 'Dosis', sans-serif;
-  text-align: center;
-  margin: 1em auto auto auto;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin: 1em auto auto auto;
 }
 .wc3-h1-pig-game{
     font-family: 'Dosis', sans-serif;
-  text-align: center;
-  margin: 1em auto auto auto;
+    text-align: center;
+    margin: 1em auto auto auto;
+}
+.wc3-h1-fav-toy{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin: 1em auto auto auto;
 }
 .wc3-p1{
-  font-family: 'Dosis', sans-serif;
-  text-align: center;
-  font-size: 1.3em;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
 }
 .wc3-p1-pig-game{
     font-family: 'Dosis', sans-serif;
-  text-align: center;
-  font-size: 1.3em;
+    text-align: center;
+    font-size: 1.3em;
+}
+.wc3-p1-fav-toy{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+    margin-right: 5%;
+    /* margin-left: 10%; */
 }
 .wcp-discription{
-  text-align: center;
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.2em;
-  margin-left: 30%;
-  margin-right: 30%;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2em;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .wcp-discription-pig-game{
-      text-align: center;
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.2em;
-  margin-left: 30%;
-  margin-right: 30%;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.wcp-discription-fav-toy{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2em;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .pw-button{
-  display: block;
-  margin: auto auto auto 40%;
+    display: block;
+    margin: auto auto auto 40%;
 }
 .pw-button-pig-game{
-     display: block;
-  margin: auto auto auto 40%;
+    display: block;
+    margin: auto auto auto 40%;
+}
+.pw-button-fav-toy{
+    display: block;
+    margin: auto auto auto 40%; 
 }
 
 
@@ -269,303 +301,342 @@ display: inline-block;
                     768 view
 ******************************************************************/
 @media screen and (max-width: 768px){
-.con1-pic{
-  width: 90%;
-}
-.hi-image{
-  width: 20%;
-  }
-  .con4-header{
-    margin: auto auto auto 5%
-  }
-  .con4-para{
-    margin: 5% 25%;
-  }
-  .con2-para{
-    margin: auto 8em;
-  }
-  .can-pic{
-    height: 30%;
-    width: 45%;
-  }
-  .build-para{
-    margin: 15% 2% auto 55%;
-  }
-  .dev-pic{
-    /* bottom: 0; */
-    position: absolute;
-    float: right;
-    margin: 40% 0 0 40%;
-  }
-  .dev-discription{
-    margin: 10% 50% auto 0;
-  }
-  .div-header{
-    margin-right: 10%; 
-  }
-  .wcp-discription{
-    margin: auto 20% 3% 20%;
-  }
-  .wcp-discription-pig-game{
-    margin: auto 20% 3% 20%;
-  }
-}
+    .con1-pic{
+    width: 90%;
+    }
+    .hi-image{
+    width: 20%;
+    }
+    .con4-header{
+        margin: auto auto auto 5%
+    }
+    .con4-para{
+        margin: 5% 25%;
+    }
+    .con2-para{
+        margin: auto 8em;
+    }
+    .can-pic{
+        height: 30%;
+        width: 45%;
+    }
+    .build-para{
+        margin: 15% 2% auto 55%;
+    }
+    .dev-pic{
+        position: absolute;
+        float: right;
+        margin: 40% 0 0 40%;
+    }
+    .dev-discription{
+        margin: 10% 50% auto 0;
+    }
+    .div-header{
+        margin-right: 10%; 
+    }
+    .wcp-discription{
+        margin: auto 20% 3% 20%;
+    }
+    .wcp-discription-pig-game{
+        margin: auto 20% 3% 20%;
+    }
+    .wcp-discription-fav-toy{
+        margin: auto 20% 3% 20%;
+    }
+    }
 
 
 /* **************************************************************
                     425 view
 ******************************************************************/
 
-@media screen and (max-width: 425px){
+    @media screen and (max-width: 425px){
 
-.social-links{
-    margin-left: 5.5em;
-  }
-  .name-header{
-    font-size: 13vw;
-     margin: auto auto auto 20%;
-  }
-  .title{
-    font-size: 6vw;
-    margin: 1vw auto 3vw auto;
-  }
-  .con1-pic {
-    width: 90%;
-  }
-  .div-header{
-    margin: 0px;
-  }
-  .container_3{
-  height: 1300px;
- }
- .can-pic{
-    margin-top: 60%;
-    margin-left: 15%;
-    position: absolute;
-    width: 60%;
-    height: 20%;
-  }
-  .con2-para{
-    margin: auto 1.2em;
-  }
-  .build-h2{
-    font-size: 2.5rem;
-    display: inline;
-  }
-  .hi-image{
-    width: 23%;
-  }
-  .build-para{
-    font-size: 1.2em;
-    margin: 20% auto;
-  }
-  .can-do-pic{
-    margin: 2.5%;  
-  }
-  .dev-pic{
-      position: absolute;
-      display: block;
-      width: 50%;
-      height: 15%;
-      bottom: 0;
-      margin: auto auto 10vw 20vw;
+    .social-links{
+        margin-left: 5.5em;
     }
-   
-  .header-dev{
-    position: relative;
-    margin-top: 12em;
-    font-size: 2.3em; 
-  }
-  .dev-discription{
-     font-size: 1.1em;
+    .name-header{
+        font-size: 13vw;
+        margin: auto auto auto 20%;
+    }
+    .title{
+        font-size: 6vw;
+        margin: 1vw auto 3vw auto;
+    }
+    .con1-pic {
+        width: 90%;
+    }
+    .div-header{
+        margin: 0px;
+    }
+    .container_3{
+    height: 1300px;
+    }
+    .can-pic{
+        margin-top: 60%;
+        margin-left: 15%;
+        position: absolute;
+        width: 60%;
+        height: 20%;
+    }
+    .con2-para{
+        margin: auto 1.2em;
+    }
+    .build-h2{
+        font-size: 2.5rem;
+        display: inline;
+    }
+    .hi-image{
+        width: 23%;
+    }
+    .build-para{
+        font-size: 1.2em;
+        margin: 20% auto;
+    }
+    .can-do-pic{
+        margin: 2.5%;  
+    }
+    .dev-pic{
+        position: absolute;
+        display: block;
+        width: 50%;
+        height: 15%;
+        bottom: 0;
+        margin: auto auto 10vw 20vw;
+        }
+    
+    .header-dev{
+        position: relative;
+        margin-top: 12em;
+        font-size: 2.3em; 
     }
     .dev-discription{
-    margin:  2em auto auto;
-    float: left;
-    font-size: 1.3em;
-  }
-  .flag{
-    width: 3em;
-    height: 5.5em;
-    margin-top: 9.5em;
-  }
-  .flag2{
-    width: 3em;
-    height: 5.5em;
-    margin-top: 9.5em;
+        font-size: 1.1em;
+        }
+        .dev-discription{
+        margin:  2em auto auto;
+        float: left;
+        font-size: 1.3em;
+    }
+    .flag{
+        width: 3em;
+        height: 5.5em;
+        margin-top: 9.5em;
+    }
+    .flag2{
+        width: 3em;
+        height: 5.5em;
+        margin-top: 9.5em;
 
-  }
-  .pencil{
-    width: 8em;
-    height: 10em;
-    margin-left: 9.5em;
-  }
-  .w-container-3{
-    height: 800px;
-  }
-  .w-container-3-pig-game{
-          height: 800px;
-  }
-  .w-project{
-    margin-left: 2em;
-    margin-right: 2em;
-    width: 22.7em;
-    height: 27em;
-  }
-  .w-project-pig-game{
-    margin-left: 2em;
-    margin-right: 2em;
-    width: 22.7em;
-    height: 27em;
-  }
-  .wcp-discription{
-    font-size: 1.1em;
-    width: 23em;
-    height: 5em;
-    padding-left: .1em;
-    margin-left: .4em;
-  }
-  .wcp-discription-pig-game{
-       font-size: 1.1em;
-    width: 23em;
-    height: 5em;
-    padding-left: .1em;
-    margin-left: .4em;
-  }
-  .pw-button{
-    margin-left: 8em;
-  } 
-  .pw-button-pig-game{
-      margin-left: 8em;
-  }
-  .con4-para{
-    margin: auto 2em 2em 2em;
-  }
-}
+    }
+    .pencil{
+        width: 8em;
+        height: 10em;
+        margin-left: 9.5em;
+    }
+    .w-container-3{
+        height: 800px;
+    }
+    .w-container-3-pig-game{
+            height: 800px;
+    }
+    .w-container-3-fav-toy{
+        height: 800px;
+
+    }
+    .w-project{
+        margin-left: 2em;
+        margin-right: 2em;
+        width: 22.7em;
+        height: 27em;
+    }
+    .w-project-pig-game{
+        margin-left: 2em;
+        margin-right: 2em;
+        width: 22.7em;
+        height: 27em;
+    }
+    .w-project-fav-toy{
+        margin-left: 2em;
+        margin-right: 2em;
+        width: 22.7em;
+        height: 27em;
+    }
+    .wcp-discription{
+        font-size: 1.1em;
+        width: 23em;
+        height: 5em;
+        padding-left: .1em;
+        margin-left: .4em;
+    }
+    .wcp-discription-pig-game{
+        font-size: 1.1em;
+        width: 23em;
+        height: 5em;
+        padding-left: .1em;
+        margin-left: .4em;
+    }
+    .wcp-discription-fav-toy{
+        font-size: 1.1em;
+        width: 23em;
+        height: 5em;
+        padding-left: .1em;
+        margin-left: .4em;
+    }
+    .pw-button{
+        margin-left: 8em;
+    } 
+    .pw-button-pig-game{
+        margin-left: 8em;
+    }
+    .pw-button-fav-toy{
+        margin-left: 8em;
+    }
+    .con4-para{
+        margin: auto 2em 2em 2em;
+    }
+    }
 
 
 /* **************************************************************
                     375 view
 ******************************************************************/
 
-@media screen and (max-width: 375px){
-  .build-para{
-    margin: auto 1em 3em 1em;
-    padding-top: 1em;
-  }
-  .header-dev{
-    margin: 10em 0 0 .2em;
-    font-size: 2.2em;
-    /* padding: auto; */
-  }
-  .dev-discription{
-    margin: 10vw 0;
-    font-size: 1.2em;
-  }
-  .con2-para{
-    margin: auto 2em;
-  }
-  .con4-para{
-    margin: auto 1.2em 1.5em 1.2em;
-  }
-  .con4-title{
-    font-size: 1.8em;
-  }
-  .div-header{
-    margin-bottom: .7em;
-  }
-  .can-pic{
-    margin: 10em auto auto 3em;
-    height: 12em;
-  }
-  .dev-pic{
-    margin-bottom: 9em;
-    width: 11em;
-    margin-left: 5em;
-  }
-  .w-project{
-    width: 85%;
-    height: 40%;
-    margin-right: 4%; 
-  }
-  .w-project-pig-game{
- width: 85%;
-    height: 40%;
-    margin-right: 4%; 
-  }
-  .wcp-discription{
-    width: 85%;
-    margin: auto 5%;
-  }
-  .wcp-discription-pig-game{
-       width: 85%;
-    margin: auto 5%;
-  }
-  .pw-button{
-    margin-left: 30%;
-    margin-top: 5%;
-  }
-  .pw-button-pig-game{
-    margin-left: 30%;
-    margin-top: 5%;
-  }
-  .w-header{
-    /* width: 98%; */
-    margin-right: 1%;
-    margin-left: 1%;
+    @media screen and (max-width: 375px){
+    .build-para{
+        margin: auto 1em 3em 1em;
+        padding-top: 1em;
+    }
+    .header-dev{
+        margin: 10em 0 0 .2em;
+        font-size: 2.2em;
+        /* padding: auto; */
+    }
+    .dev-discription{
+        margin: 10vw 0;
+        font-size: 1.2em;
+    }
+    .con2-para{
+        margin: auto 2em;
+    }
+    .con4-para{
+        margin: auto 1.2em 1.5em 1.2em;
+    }
+    .con4-title{
+        font-size: 1.8em;
+    }
+    .div-header{
+        margin-bottom: .7em;
+    }
+    .can-pic{
+        margin: 10em auto auto 3em;
+        height: 12em;
+    }
+    .dev-pic{
+        margin-bottom: 9em;
+        width: 11em;
+        margin-left: 5em;
+    }
+    .w-project{
+        width: 85%;
+        height: 40%;
+        margin-right: 4%; 
+    }
+    .w-project-pig-game{
+        width: 85%;
+        height: 40%;
+        margin-right: 4%; 
+    }
+    .w-project-fav-toy{
+        width: 85%;
+        height: 40%;
+        margin-right: 4%; 
+    }
+    .wcp-discription{
+        width: 85%;
+        margin: auto 5%;
+    }
+    .wcp-discription-pig-game{
+        width: 85%;
+        margin: auto 5%;
+    }
+    .wcp-discription-fav-toy{
+        width: 85%;
+        margin: auto 5%;
+    }
+    .pw-button{
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    .pw-button-pig-game{
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    .pw-button-fav-toy{
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    .w-header{
+        /* width: 98%; */
+        margin-right: 1%;
+        margin-left: 1%;
 
-  }
-  .w-workToShow{
-    margin: auto 1%;
-  }
-  .pencil{
-    margin-left: 35%;
-  }
-}
+    }
+    .w-workToShow{
+        margin: auto 1%;
+    }
+    .pencil{
+        margin-left: 35%;
+    }
+    }
 
 /* **************************************************************
                            320 view
 ******************************************************************/
 
-@media screen and (max-width: 320px){
-  .div-header{
-    margin-top: 2em;
-    font-size: 3.2em;
-  }
-  .build-h2{
-    font-size: 2.2em;
-  }
-  .can-pic{
-    margin-top: 15em;
-    margin-left: 2em;
-  }
-  .header-dev{
-    font-size: 1.9em;
-  }
-  .dev-pic{
-    margin-left: 4em;
-  }
-  .con4-title{
-    font-size: 1.6em;
-  }
-  .con4-para{
-    font-size: 1.2em;
-    margin: auto 1em 2em 1em;
-  }
-  .container_4{
-    padding: auto 2em;
-  }
-  .flag2{
-    margin-top: -6%;
-  }
-  .work-title{
-    margin-right: 14%;
-  }
-  .w-workToShow{
-    margin-right: 2%;
-    margin-left: 2%;
-  }
-  .pw-button{
-    margin: 10% 24%;
-  }
-}
+    @media screen and (max-width: 320px){
+    .div-header{
+        margin-top: 2em;
+        font-size: 3.2em;
+    }
+    .build-h2{
+        font-size: 2.2em;
+    }
+    .can-pic{
+        margin-top: 15em;
+        margin-left: 2em;
+    }
+    .header-dev{
+        font-size: 1.9em;
+    }
+    .dev-pic{
+        margin-left: 4em;
+    }
+    .con4-title{
+        font-size: 1.6em;
+    }
+    .con4-para{
+        font-size: 1.2em;
+        margin: auto 1em 2em 1em;
+    }
+    .container_4{
+        padding: auto 2em;
+    }
+    .flag2{
+        margin-top: -6%;
+    }
+    .work-title{
+        margin-right: 14%;
+    }
+    .w-workToShow{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .pw-button{
+        margin: 10% 24%;
+    }
+    .wc3-p1-fav-toy{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    }

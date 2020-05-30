@@ -23,6 +23,7 @@ export default class Footer extends Component {
                 </ReactBootStrp.Nav.Link>
               </ReactBootStrp.Nav.Item>
             </ReactBootStrp.Nav>
+                <p className="copy">&copy; 2020 Abdulai Sow</p>
           </footer>
         );
     }
