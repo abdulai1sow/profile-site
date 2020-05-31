@@ -313,15 +313,48 @@
     display: block;
     margin: auto auto auto 40%;
 }
+/* fav toy */
+.btn-wp2-fav-toy.btn.active.btn-primary.btn-lg{
+    color:black;
+    background-color: #c13ab5;
+    border: none;
+
+}
+.btn-wp3-fav-toy.btn.active.btn-primary.btn-lg{
+    color:black;
+    background-color: #c13ab5;
+    border: none;
+}
+/* dice roll btn */
+.btn-wp2-pig-game.btn.active.btn-primary.btn-lg{
+    color:black;
+    background-color: #5cc6c4;
+    border: none;
+
+}
+.btn-wp3-pig-game.btn.active.btn-primary.btn-lg{
+    color:black;
+    background-color: #5cc6c4;
+    border: none;
+
+}
 .pw-button-fav-toy{
     display: block;
     margin: auto auto auto 40%; 
 }
-.btn-wp3{
-    color:red;
-    background-color: #e43ad0;
-}
+/* connect four btn */
+.btn-wp3.btn.active.btn-primary.btn-lg{
+    color:black;
+    background-color: #eee283;
+    border: none;
 
+}
+.btn-wp2.btn.active.btn-primary.btn-lg{
+    color:black;
+    background-color: #eee283;
+    border: none;
+
+}
 
 
 
