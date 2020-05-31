@@ -125,7 +125,7 @@ export default class Work extends Component {
                     APP
                     </ReactBootStrp.Button>{" "}
                 </a>
-                <a href="https://git.generalassemb.ly/sowabdulai/Project_One">
+                <a className="btn-red" href="https://git.generalassemb.ly/sowabdulai/Project_One">
                     <ReactBootStrp.Button
                     className="btn-wp3"
                     variant="primary"

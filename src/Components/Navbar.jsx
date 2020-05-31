@@ -14,13 +14,13 @@ export default class Navbar extends Component {
                 activeKey="/home"
               >
                 <ReactBootStrp.Nav.Item>
-                  <ReactBootStrp.Nav.Link href="/">
+                  <ReactBootStrp.Nav.Link href="/" className="h-nav">
                     Home
                   </ReactBootStrp.Nav.Link>
                 </ReactBootStrp.Nav.Item>
 
                 <ReactBootStrp.Nav.Item>
-                  <ReactBootStrp.Nav.Link href="/work">
+                  <ReactBootStrp.Nav.Link href="/work" className="w-nav">
                     Work
                   </ReactBootStrp.Nav.Link>
                 </ReactBootStrp.Nav.Item>

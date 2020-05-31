@@ -17,6 +17,30 @@
     background-color: #ccf0e1;
     width: 100%;
 }
+.linked{
+    color:#15b0b3;
+    text-decoration: none;
+}
+.linked:hover{
+    color:#186d65;
+    text-decoration: none
+}
+.github{
+    color:#15b0b3;
+    text-decoration: none;
+}
+.github:hover{
+    color:#186d65;
+    text-decoration: none;
+}
+.w-nav{
+    color:#15b0b3;
+    text-decoration: none;
+}
+.h-nav{
+    color:#15b0b3;
+    text-decoration: none;
+}
 .social-links{
     margin: 2% auto 0 40%;
     font-size: 1.2em;
@@ -259,7 +283,6 @@
     text-align: center;
     font-size: 1.3em;
     margin-right: 5%;
-    /* margin-left: 10%; */
 }
 .wcp-discription{
     text-align: center;
@@ -294,6 +317,11 @@
     display: block;
     margin: auto auto auto 40%; 
 }
+.btn-wp3{
+    color:red;
+    background-color: #e43ad0;
+}
+
 
 
 

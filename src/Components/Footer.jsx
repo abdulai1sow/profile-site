@@ -12,14 +12,14 @@ export default class Footer extends Component {
             >
               <ReactBootStrp.Nav.Item as="li">
                 <ReactBootStrp.Nav.Link href="/home">
-                  <a href="https://www.linkedin.com/in/abdulai-sow-50924325/">
+                  <a className="linked" href="https://www.linkedin.com/in/abdulai-sow-50924325/">
                     LinkedIn
                   </a>
                 </ReactBootStrp.Nav.Link>
               </ReactBootStrp.Nav.Item>
               <ReactBootStrp.Nav.Item as="li">
                 <ReactBootStrp.Nav.Link href="/home">
-                  <a href="https://github.com/abdulai1sow">Github</a>
+                  <a className="github" href="https://github.com/abdulai1sow">Github</a>
                 </ReactBootStrp.Nav.Link>
               </ReactBootStrp.Nav.Item>
             </ReactBootStrp.Nav>
