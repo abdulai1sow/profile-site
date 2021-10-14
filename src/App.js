@@ -1,30 +1,30 @@
 import React from 'react';
-import About from './Components/About';
-import Work from './Components/Work'
-import './App.css';
-import * as ReactBootStrp from 'react-bootstrap'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Footer from './Components/Footer';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Nav/Navbar';
+import Footer from './Components/Footer/Footer';
+import Home from './Components/Home';
+import Work from './Components/Work';
+import About from './Components/About-Section/About'
+import Contact from './Components/ContactForm/Contact'
+import './App.css';
+
 function App() {
   return (
-    
-    <div>
-      <Navbar/>
-      {/* <About/> */}
+    <main>
+      <Navbar />
+
       <Router>
         <Switch>
-          <Route exact path="/" component={About} />;
-          <Route exact path="/work" component={Work} />;
+          <Route exact path="/" component={Home} />;
+          <Route path="/about" component={About} />;
+          <Route path="/work" component={Work} />;
+          <Route path="/work" component={Contact} />;
             </Switch>
       </Router>
       <Footer/>
-      
-    </div>
-
+    </main>
 
   );
-
 }
 
 export default App;
